@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect
 from CRUD1.models.models import db, EmployeeModel
 
-"""code for flask CRUD opearation"""
+
 
 app = Flask(__name__)
 
